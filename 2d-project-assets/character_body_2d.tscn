@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dvxo418wt5vxu"]
+
+[ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/happy_boo.tscn" id="1_f50pn"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1645706639]
+
+[node name="HappyBoo" parent="." unique_id=1091727253 instance=ExtResource("1_f50pn")]
+position = Vector2(0, -1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1048635337]
