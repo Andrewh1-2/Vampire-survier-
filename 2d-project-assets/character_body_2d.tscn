@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://dvxo418wt5vxu"]
 
 [ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/happy_boo.tscn" id="1_f50pn"]
+[ext_resource type="Script" uid="uid://vj65np4jl4vl" path="res://character_body_2d.gd" id="1_ij6vw"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=1645706639]
+script = ExtResource("1_ij6vw")
 
 [node name="HappyBoo" parent="." unique_id=1091727253 instance=ExtResource("1_f50pn")]
 position = Vector2(0, -1)
