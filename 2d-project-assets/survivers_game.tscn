@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://cs5xbfh147psx"]
+
+[ext_resource type="PackedScene" uid="uid://dvxo418wt5vxu" path="res://player.tscn" id="1_ndlg3"]
+[ext_resource type="PackedScene" uid="uid://vk50tubkjkm1" path="res://pinetree.tscn" id="2_0xtcb"]
+[ext_resource type="PackedScene" uid="uid://y38gte5o0xf8" path="res://mob.tscn" id="3_0xtcb"]
+
+[node name="game" type="Node2D" unique_id=1536847309]
+y_sort_enabled = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=846736566]
+layer = -30
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=663347175]
+offset_right = 2629.0
+offset_bottom = 1537.0
+
+[node name="player" parent="." unique_id=1645706639 instance=ExtResource("1_ndlg3")]
+position = Vector2(1053, 1005)
+
+[node name="mob" parent="." unique_id=650987022 instance=ExtResource("3_0xtcb")]
+position = Vector2(1497, 1027)
+
+[node name="mob2" parent="." unique_id=1913318353 instance=ExtResource("3_0xtcb")]
+position = Vector2(732, 832)
+
+[node name="mob3" parent="." unique_id=1907404873 instance=ExtResource("3_0xtcb")]
+position = Vector2(758, 1206)
+
+[node name="mob4" parent="." unique_id=200385335 instance=ExtResource("3_0xtcb")]
+position = Vector2(1302, 580)
+
+[node name="pinetree" parent="." unique_id=525877152 instance=ExtResource("2_0xtcb")]
+position = Vector2(426, 1318)
+
+[node name="pinetree2" parent="." unique_id=1818521126 instance=ExtResource("2_0xtcb")]
+position = Vector2(934, 557)
+
+[node name="pinetree3" parent="." unique_id=355767211 instance=ExtResource("2_0xtcb")]
+position = Vector2(2238, 955)
+
+[node name="pinetree4" parent="." unique_id=1542147098 instance=ExtResource("2_0xtcb")]
+position = Vector2(1994, 1184)
+
+[node name="pinetree5" parent="." unique_id=619878812 instance=ExtResource("2_0xtcb")]
+position = Vector2(1616, 413)
+
+[node name="pinetree6" parent="." unique_id=736535207 instance=ExtResource("2_0xtcb")]
+position = Vector2(834, 965)
+
+[node name="pinetree7" parent="." unique_id=2117753117 instance=ExtResource("2_0xtcb")]
+position = Vector2(396, 283)

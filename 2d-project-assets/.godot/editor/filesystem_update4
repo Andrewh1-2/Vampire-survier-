@@ -1,1 +1,7 @@
 res://character_body_2d.tscn
+res://character_body_2d.gd
+res://player.tscn
+res://survivers_game.tscn
+res://pinetree.tscn
+res://mob.tscn
+res://mob.gd
